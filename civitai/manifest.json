@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Civitai Bot",
+  "version": "1.0.0.1",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://civitai.com/*"],
+      "css": ["civitai.css"],
+      "js": ["civitai.js"],
+      "type": "module"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+
+}

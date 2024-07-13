@@ -1,0 +1,15 @@
+{
+  "name": "chrome-lumen-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Wood",
+  "license": "SEE LICENSE IN license.md",
+  "dependencies": {
+    "@types/chrome": "^0.0.200",
+    "types": "^0.1.1"
+  }
+}
